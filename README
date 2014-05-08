@@ -6,7 +6,7 @@
   
   Sample usage is:
   
-  $ php -f ./wp_url_migrator.php h=localhost u=root p= d=bizlist x=bizlist_ http://192.168.1.1 http://localhost
+  $ php ./wp_url_migrator.php h=localhost u=root p= d=bizlist x=bizlist_ http://192.168.1.1 http://localhost
 
   where:
   h => the database server host
