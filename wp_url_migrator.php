@@ -39,7 +39,7 @@
   $db_prfx = '';
  
   for( $i = 1; $i < ($argc - 1); $i++ ) {
-    $arg = split('=', $argv[$i]);
+    $arg = explode('=', $argv[$i]);
     if (sizeof($arg) > 1) {
       switch( $arg[0] ) {
         case 'h':
